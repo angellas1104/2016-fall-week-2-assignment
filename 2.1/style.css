@@ -9,3 +9,58 @@ body{
     font-size:16px;
     font-family:Helvetica,Arial,sans-serif;
 }
+header{width:100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 4px solid black;
+    text-transform:uppercase;
+    font-weight:bolder;
+}
+.content {
+    color: blue;
+    width: 66.6%;
+    position:relative;
+    float:left;
+}
+.sidebar{
+    color: red;
+    width: 33.3%;
+    position:relative;
+    float:left;
+}
+.content p, .sidebar p{
+    font-family: Georgia;
+}
+#lead{
+    width:98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+}
+.content .article{
+    width:48%;
+    margin-left:1%;
+    margin-right:1%;
+    float: left;
+    border-bottom: 1px solid blue;
+}
+article{
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+article h2{
+font-size: 1.2em;
+}
+#lead h2{
+    font-size: 1.8em;
+}
+#bb h2{
+    font-size: 1.8em;
+}
+
+
+
+
+
+
+
